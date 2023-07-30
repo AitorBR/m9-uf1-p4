@@ -1,0 +1,63 @@
+body {
+    font-size: 14px;
+    font-family: arial;
+}
+
+.colum_1 {
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.colum_2 {
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.colum_3 {
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.box_dades {
+    background-color: #BBBBBB;
+}
+
+.box_form {
+    background-color: #f1c19d;
+}
+
+.box_document {
+    background-color: #b67e7e;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 2px;
+}
+
+legend {
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn_envia {
+    margin-top: 10px;
+}
+
+.dl_acceso {
+    margin-left: 40px;
+}
+
+dl {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../css\style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="box">
+        <form method="post">
+            <h1>FULL D'INSCRIPCIÓ EN ELS CICLES FORMATIUS DE GRAU SUPERIOR</h1>
+            <fieldset class="box_dades">
+                <legend>Dades Personals</legend>
+
+                <div class="colum_1">
+                    <p>
+                        <label>Nom:</label> <br>
+                        <input type="text" placeholder="Nom" />
+                    </p>
+                    <p>
+                        <label>Lloc de Naixement:</label><br>
+                        <input type="text" placeholder="Lloc de Naixement" />
+                    </p>
+                    <p>
+                        <label>Adreça:</label><br>
+                        <input type="text" placeholder="Adreça" />
+                    </p>
+                </div>
+
+                <div class="colum_2">
+                    <p>
+                        <label>Congnom:</label><br>
+                        <input type="text" placeholder="Congnom" />
+                    </p>
+                    <p>
+                        <label>Procincia:</label><br>
+                        <select name="provincia">
+                        <optgroup label="Catalunya">
+                            <option selected value="B">Barcelona</option>
+                            <option>Girona</option>
+                            <option>Lleida</option>
+                            <option>Tarragona</option>
+                        </optgroup>
+                    </select>
+                    </p>
+                </div>
+
+                <div class="colum_3">
+                    <p>
+                        <label>DNI:</label><br>
+                        <input type="text" placeholder="DNI" />
+                    </p>
+                    <p>
+                        <label>Data de naixement:</label><br>
+                        <input type="text" placeholder="Data de naixement" />
+                    </p>
+                    <p>
+                        <label>Codi Postal:</label><br>
+                        <input type="text" placeholder="Codi Postal" />
+                    </p>
+                </div>
+
+            </fieldset>
+
+            <fieldset class="box_form">
+                <legend>Forma d'accés</legend>
+                <dl class="dl_acceso">
+                    <dt><input type="radio" name="acceso" value="Directe" />Directe</dt>
+                    <dd><input type="radio" name="acceso" value="Batxillerat" />Batxillerat</dd>
+                    <dd><input type="radio" name="acceso" value="Experimental" />Experimental</dd>
+                    <dd><input type="radio" name="acceso" value="COU" />COU</dd>
+                    <dd><input type="radio" name="acceso" value="FP2" />FP2</dd>
+                    <dd><input type="radio" name="acceso" value="Altres" />Altres...</dd>
+                    <dt><input type="radio" name="acceso" value="Proba lliure" />Proba lliure</dt>
+                </dl>
+
+            </fieldset>
+
+            <fieldset class="box_document">
+                <legend>Document Adjuntats</legend>
+
+                <input type="checkbox"></input><label>Fotocopia DNI</label>
+                <input type="checkbox"></input><label>Certificat academic</label>
+                <br>
+
+                <input type="checkbox"><label>Altres documents (especifiqueu-los)</label>
+
+
+            </fieldset>
+            <input class="btn_envia" type="button" name="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

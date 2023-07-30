@@ -1,0 +1,22 @@
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+tr {
+    border: 1px solid;
+}
+
+img {
+    width: 100px;
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+    font-family: arial
+}
+
+caption {
+    font-size: 32px;
+}
